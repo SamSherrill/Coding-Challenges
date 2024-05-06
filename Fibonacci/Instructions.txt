@@ -1,0 +1,5 @@
+1. Write a function that takes a number and gives me the nth
+number in the fibonacci sequence
+2. Create an input field that has a rounded border
+3. Create a button that generates the number and puts in on
+the screen in roboto font
