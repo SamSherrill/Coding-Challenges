@@ -1,0 +1,7 @@
+1. Display an input box for the users to pass in a number
+2. Make a button, when click on, takes the input number and display the result (Whether is a prime number or not)
+3. The result should have a wait time of 2 seconds, simulating the time it takes to calculate/determine the input.
+
+
+Extra Credit
+Add input validation to limit only numbers are being passed in.
