@@ -1,5 +1,11 @@
 1. Write a function that takes a number and gives me the nth
 number in the fibonacci sequence
-2. Create an input field that has a rounded border
+2. Create an input field
 3. Create a button that generates the number and puts in on
-the screen in roboto font
+the screen
+
+Extra Credit
+- This font is lame, use Roboto for me
+- Give the input field a rounded border
+- Add input validation that only allows the button to be pressed 
+when only numbers are in the input
