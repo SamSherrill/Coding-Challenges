@@ -1,11 +1,20 @@
 1. Write a function that takes a number and gives me the nth
 number in the fibonacci sequence
+// DONE, I think
+// Refactor
+
 2. Create an input field
+// Do first in the terminal
+// Then place on the html page & get into main
+
 3. Create a button that generates the number and puts in on
 the screen
 
 Extra Credit
 - This font is lame, use Roboto for me
+// CSS
 - Give the input field a rounded border
+// Bootstrap?
 - Add input validation that only allows the button to be pressed 
 when only numbers are in the input
+// After validating this, I can make it only whole numbers
