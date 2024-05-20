@@ -1,7 +1,7 @@
-const userIntInput = 15;
+const userIntInput = 6;
 
 //console.log("I'm alive.");
-console.log("We will calculate the Fibonacci value at f^" + userIntInput);
+console.log("The Fibonacci value at f^" + userIntInput + " is:");
 
 // Input from user will become userIntInput; it must be a whole # INT
 // Output Fibonacci val at that place in the Fib sequence
@@ -11,18 +11,35 @@ function fibonacciNow(placeInSeq) {
     let previousValue = 1;
     let currentValue = 1;
 
-    if (placeInSeq == 1 || placeInSeq == 2) {
-        console.log(1);
-    } else {
-        console.log(1);
-        console.log(1);
-        for (let i = 3; i <= placeInSeq; i++) {
-            const nextValue = previousValue + currentValue;
-            console.log(nextValue);
-            previousValue = currentValue;
-            currentValue = nextValue;
-        }
+    if (placeInSeq < 0) {
+        console.log("The input must be a positive whole number.");
+        return;
     }
+
+    if (placeInSeq === 0) {
+        console.log(0);
+        return 0;
+    }
+
+    if (placeInSeq === 1) {
+        console.log(1);
+        return 1;
+    }
+
+    if (placeInSeq === 2) {
+        console.log(1);
+        console.log(1);
+        return 1;
+    }
+
+    for (let i = 3; i <= placeInSeq; i++) {
+        const nextValue = previousValue + currentValue;
+        previousValue = currentValue;
+        currentValue = nextValue;
+    }
+
+    console.log(currentValue);
+    return currentValue;
 }
 
 fibonacciNow(userIntInput);
