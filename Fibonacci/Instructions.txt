@@ -1,14 +1,16 @@
 1. Write a function that takes a number and gives me the nth
 number in the fibonacci sequence
-// DONE, I think
-// Refactor
+// DONE
+// Refactor DONE
 
 2. Create an input field
-// Do first in the terminal
+// Do first in the terminal (MAYBE skip)
 // Then place on the html page & get into main
 
 3. Create a button that generates the number and puts in on
 the screen
+// Create HTML button (no JSX)
+// Logic for that button in main.js
 
 Extra Credit
 - This font is lame, use Roboto for me
@@ -18,3 +20,7 @@ Extra Credit
 - Add input validation that only allows the button to be pressed 
 when only numbers are in the input
 // After validating this, I can make it only whole numbers
+
+Extra Extra Credit
+- Refactor into React
+- OR just move on to another exercise
